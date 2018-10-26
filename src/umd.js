@@ -1,6 +1,6 @@
 import {Laue} from './index'
 
-if (typeof window.Vue !== 'undefined') {
+if (typeof window !== 'undefined' && window.Vue) {
   window.Vue.use(Laue)
 }
 
